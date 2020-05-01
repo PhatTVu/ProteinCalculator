@@ -23,6 +23,12 @@
         <h1 class="text-center">Protein Calculator</h1>    
 
         <form>
+            <!-- Input Name -->
+            <div class="form-group">
+                <label>Name</label>
+                <input class='form-control text-center' type="text" id="name" placeholder="name">
+            </div>
+            <hr>
 
             <!-- Input Height -->
             <div class="form-group">
@@ -47,13 +53,16 @@
             </select>  
             <br>
 
-            <!-- Submit -->
+            <!-- Submit Button -->
             <button type="submit" class="btn btn-primary">Calculate</button>
-            <hr>
+            <ul id="results"></ul>
             <hr>
 
-            <!-- Print Result -->
-            <div id="results"></div>
+            <!-- View History Button -->
+            <button type="button" id="history-button" class="btn btn-secondary">View History</button>
+            <hr>
+            <table id="myTable"></table>
+            <hr><hr>
     
         </form>
     </div>
