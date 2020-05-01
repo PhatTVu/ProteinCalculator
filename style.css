@@ -1,36 +1,10 @@
 .container {
     width: 375px;
-    height: 800px;
+    height: auto;
     margin-left: 350px;
-    margin-top: 65px;
     background-color: rgb(173, 216, 230);
     padding-left: 30px;
 }
-
-/*#height, #weight {
-    width: 150px;
-    height: 25px;
-    margin-top: 50px;
-}*/
-
-/*#results{
-    font-size: auto;
-    margin-left: 90px;
-    margin-top: 20px;
-    color: blue;
-}*/
-
-/*button{
-    width: 150px;
-    height: 35px;
-    margin-left: 90px;
-    margin-top: 25px;
-    border-radius: 5px;
-    border-style: none;
-    background-color: blue;
-    color: #fff;
-    font-size: 25px;
-}*/
 
 h1.thick{
     font-weight: bold;
